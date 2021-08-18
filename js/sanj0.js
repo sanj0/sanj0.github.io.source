@@ -1,5 +1,5 @@
 const birthday = new Date(2004, 0, 13);
-const footer_text = '&copy; 2021 Malte Dostal. All rights reserved. <a style="color: white;" href="mailto:malte.dostal@gmail.com">email me,</a><br>Fonts by fonts.google.com ("Righteous", "Raleway")';
+const footer_text = '&copy; 2021 Malte Dostal. All rights reserved. <a style="color: white;" href="mailto:malte.dostal@gmail.com">email me.</a><br>Fonts by fonts.google.com ("Righteous", "Raleway")';
 
 for (let f of document.getElementsByClassName("footer")) {
     f.innerHTML = footer_text;
