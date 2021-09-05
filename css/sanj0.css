@@ -104,7 +104,11 @@ html {
 }
 
 #btnprojects {
-    background: rgba(248,223,166,1);
+    background: rgb(239,187,170);
+}
+
+#btnprojects:hover {
+    background: #f25065;
 }
 
 .olprojects {
