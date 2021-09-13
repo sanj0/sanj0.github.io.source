@@ -25,7 +25,7 @@ html {
     max-width: 750px;
     margin: auto;
     padding-bottom: 1em;
-    margin-top: 10em;
+    margin-top: 5em;
     margin-right: auto;
     left: 0;
     right: 0;
@@ -161,7 +161,7 @@ and (max-width : 1100px) {
         margin-right: auto;
     }
     .main-div {
-        margin-top: 3em;
+        margin-top: 1.5em;
         width: 95%;
     }
     .context {
