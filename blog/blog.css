@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:400,800&display=swap');
+
+* {
+    transition: all .1s ease-in-out;
+    transition: transform .15s ease-in-out;
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --background: #181A1B;
+    --theme: #33ACA6;
+    --foreground: rgb(211, 207, 201);
+
+    --navbar-height: 45px;
+    --m-left: 19.5vw;
+    --w: 61vw;
+}
+
+html {
+    background-color: var(--background);
+}
+
+body {
+    margin: 0;
+}
+
+#navbar {
+    background-color: var(--theme);
+    position: relative;
+    width: 100%;
+    height: var(--navbar-height);
+}
+
+.navlink {
+    display: inline-block;
+    text-align: center;
+    line-height: var(--navbar-height);
+    text-transform: uppercase;
+    font-size: smaller;
+    text-decoration: none;
+    margin-left: 3em;
+    color: white;
+}
+
+.navlink:first-child {
+    margin-right: 4em;
+}
+
+#divcat {
+    margin-top: 7em;
+    margin-left: var(--m-left);
+    width: var(--w);
+}
+
+#cat {
+    display: inline-block;
+    padding-bottom: 1em;
+    border-bottom: 1px solid;
+    color: var(--foreground);
+    width: 61%;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.25em;
+}
+
+#meta {
+    font-size: .65em;
+    text-transform: none;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#divpost {
+    margin-top: 3em;
+    color: var(--foreground);
+    margin-left: var(--m-left);
+    width: var(--w);
+    text-align: justify;
+    hyphens: auto;
+}
+
+#post-title {
+    margin-bottom: .5em;
+}
+
+#post-subtitle {
+    margin-top: 0em;
+    margin-bottom: 1.5em;
+    font-weight: 300;
+}
+
+#post-body {
+    line-height: 1.85em;
+}
