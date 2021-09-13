@@ -10,7 +10,7 @@ minify -s --recursive -o $repo .
 
 # add all and commit with aforementioned message
 # do git stuff with && in case of failure
-cd $repo && git add . && git commit -m "$commit_message" && git push
+cd $repo && git add . && git commit -m "automatic deploy commit: ${commit_message}" && git push
 
 # cd back
 cd $before
