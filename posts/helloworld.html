@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World! | blogpost by sanj0</title>
+    <link rel="stylesheet" href="/css/blog.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/atom-one-dark.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <span class="navlink">LOGO</span>
+            <a class="navlink" href="../index.html">Homepage</a>
+            <a class="navlink" target="_blank" href="https://www.github.com/sanj0">GitHub</a>
+            <a class="navlink" target="_blank" href="https://www.youtube.com/channel/UCEHEIhtkOqpds6Dbnf2fuzQ">YouTube</a>
+            <a class="navlink" href="https://www.google.com/search?q=todo">categories &gt;</a>
+        </nav>
+    </header>
+    <main>
+        <div id="divcat">
+            <span id="cat">special | meta<br><span id="meta">by Malte Dostal on 14 September 2021</span></span>
+        </div>
+        <div id="divpost">
+            <h1 id="post-title">Hello World!</h1>
+            <h2 id="post-subtitle">This is Malte Dostal ("sanj0") on this new blog!</h2>
+            <span id="post-body"><p>Hello, World! Thank you very much for showing interest in my latest project, this blog. If everything goes to plan (which it normally doesn't for my projects), I will be posting weekly updates of my multi-media adventures (which mostly consists of coding) and zero or more intermediate, small updated for when I discovered something interesting or implemented a nice feature. Or hopped on a new side project that will be abandoned two days later.</p>
+<p>This is written in markdown (currently using <a href="https://www.obsidian.md">Obsidian</a> and <a href="https://www.atom.io">Atom</a>) and then parsed by a self-written java program. The resulting html data is placed into a template and categorised by the tags that were parsed from this very markdown file but ignored by the html converter. Naturall, I <strong>have to</strong> try if the <em>formatting</em> actually ~~works~~, which it actually seems to. Here is a list of nothings:</p>
+<ul>
+<li>nothing</li>
+<li>nothing, again</li>
+<li>nothing, but cooler</li>
+</ul>
+<p>and now we rank them:</p>
+<ol>
+<li>nothing, but cooler</li>
+<li>nothing (because it's original)</li>
+<li>nothing, again (copycat)</li>
+</ol>
+<p>This is inline <code>code</code>, while the following is a java codeblock:</p>
+<pre><code class="language-java">public static void main(String[] args) {
+    System.out.println(&quot;hello, world!&quot;);
+}
+</code></pre>
+<p>After this initial success of parsing the markdown to html (btw using <a href="https://github.com/commonmark/commonmark-java">CommonMark</a>) and deploying it to my website, categorising etc. will soon follow.</p></span>
+        </div>
+    </main>
+</body>
+<script src="/js/blog.js"></script>
+</html>

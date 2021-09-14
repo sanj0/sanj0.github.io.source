@@ -24,6 +24,11 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: underline;
+    color: rgba(248,223,166,1);
+}
+
 #navbar {
     background: rgb(237,129,158);
     background: linear-gradient(90deg, rgba(237,129,158,1) 61%, rgba(248,223,166,1) 100%);
@@ -92,4 +97,9 @@ body {
 
 #post-body {
     line-height: 1.85em;
+}
+
+code {
+    font-family: 'Monaco', 'Menlo', 'Fira Code', monospace;
+    color: rgba(237,129,158,1);
 }
