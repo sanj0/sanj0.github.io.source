@@ -18,10 +18,17 @@
 
 html {
     background-color: var(--background);
+    height: calc(100% - 5em);
 }
 
 body {
     margin: 0;
+    height: calc(100% - 5em);
+}
+
+main {
+   min-height: calc(100% - 4em);
+
 }
 
 a {
@@ -102,4 +109,20 @@ a {
 code {
     font-family: 'Monaco', 'Menlo', 'Fira Code', monospace;
     color: rgba(237,129,158,1);
+}
+
+footer {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    height: 4em;
+    clear: both;
+    background-color: darkslategray;
+    color: var(--foreground);
+}
+
+.footer-element {
+    display: table-cell;
+    text-align: center;
+    line-height: 4em;
 }
