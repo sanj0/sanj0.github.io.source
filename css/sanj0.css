@@ -111,12 +111,21 @@ html {
     background: #f25065;
 }
 
+.h1projects {
+    color: white;
+    font-family: 'Righteous', serif;
+    margin-top: 0em;
+    margin-bottom: 1.5em;
+}
+
+
 .olprojects {
     text-align: left;
     font-variant: small-caps;
     font-size: 1.2em;
     margin-bottom: 3.5em;
 }
+
 .projects-headline {
     font-family: "Righteous", cursive;
     font-size: 2em;
