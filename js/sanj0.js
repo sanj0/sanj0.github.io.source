@@ -34,7 +34,7 @@ function change_context_display_style(d) {
 }
 
 function init_context_visibility() {
-    change_context_display_style(isTouchDevice() ? "inline-block" : "none");
+    change_context_display_style("none");
 }
 
 function isTouchDevice() {
