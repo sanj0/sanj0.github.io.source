@@ -42,3 +42,17 @@ function isTouchDevice() {
         (navigator.maxTouchPoints > 0) ||
         (navigator.msMaxTouchPoints > 0));
 }
+
+var foldButtons = document.getElementsByClassName("project-button");
+for (var i = 0; i < foldButtons.length; i++) {
+    foldButtons[i].nextElementSibling.style.display = "none";
+    foldButtons[i].addEventListener("click", function() {
+        this.classList.toggle("active-project-button");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+            content.style.display = "none";
+        } else {
+            content.style.display = "block";
+        }
+    })
+}

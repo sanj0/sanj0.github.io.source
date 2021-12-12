@@ -21,7 +21,6 @@
     <main>
         <div id="divstart" class="main-div">
             <h1 id="title">sanj0</h1>
-            <img class="portrait" src="img/sanj0.jpeg" alt="saj0">
             <button onclick="on_nav_btn_click(this);" id="btnwho" class="button stdtext">Who?</button><span
                 class="stdtext body context"> ... is sanj0?</span><br>
             <button onclick="on_nav_btn_click(this);" id="btnwhat" class="button stdtext">What?</button><span
@@ -37,7 +36,6 @@
 
         <div id="divwho" class="main-div" style="display:none">
             <h1 id="title">sanj0</h1>
-            <img class="portrait" src="img/sanj0.jpeg" alt="saj0">
             <button onclick="on_nav_btn_click(this);" id="btnstart" class="button stdtext">&lt; back</button><br>
             <div class="bodydiv">
                 <p class="stdtext body">sanj0 is the internet pseudonym of <b>Malte D.</b>, a student from germany.
@@ -51,7 +49,6 @@
 
         <div id="divwhat" class="main-div" style="display:none">
             <h1 id="title">sanj0</h1>
-            <img class="portrait" src="img/sanj0.jpeg" alt="saj0">
             <button onclick="on_nav_btn_click(this);" id="btnstart" class="button stdtext">&lt; back</button>
             <button onclick="on_nav_btn_click(this);" id="btnprojects" class="button stdtext">projects &gt;</button><br>
             <div class="bodydiv">
@@ -68,20 +65,14 @@
 
         <div id="divprojects" class="main-div" style="display:none">
             <h1 id="title">sanj0</h1>
-            <img class="portrait" src="img/sanj0.jpeg" alt="saj0">
             <button onclick="on_nav_btn_click(this);" id="btnstart" class="button stdtext">&lt; back</button><br>
-            <h1 class="h1projects">Projects</h1>
             <div id="projects-div">
-                <ol type="1" class="olprojects">
-                    <li class="stdtext body"><a class="link" href="#software-projects">Software projects</a></li>
-                    <li class="stdtext body"><a class="link" href="#games">Games</a></li>
-                    <li class="stdtext body"><a class="link" href="#dissertations">Dissertations, essays, etc.</a>
-                    </li>
-                </ol>
-                <h2 class="projects-headline" id="software-projects">Software projects</h2>
+                <button class="button project-button" id="software-projects">Software projects</button>
                 <ul class="project-list">
                     <li class="stdtext body liproject"><a class="link" href="https://www.github.com/sanj0/salty-engine"
-                            target="_blank">Salty Engine</a>, a 2d java game library</li>
+                            target="_blank">Salty Engine</a>, a 2d java game library (discontinued)</li>
+                    <li class="stdtext body liproject"><a class="link" href="https://www.github.com/sanj0/kopfkino"
+                            target="_blank">kopfkino</a>, the succesor to Salty Engine</li>
                     <li class="stdtext body liproject"><a class="link" href="https://sanj0.itch.io/escape-the-junk"
                             target="_blank">Escape the Junk</a>, a game made with a good friend for ldjam 42</li>
                     <li class="stdtext body liproject"><a class="link" href="https://www.github.com/sanj0/lt3"
@@ -106,7 +97,7 @@
                             target="_blank">edgy script</a>, a turing complete but fundamentally broken scripting lang
                     </li>
                 </ul>
-                <h2 class="projects-headline" id="games">Games</h2>
+                <button class="button project-button" id="game-projects">Games</button>
                 <ul class="project-list">
                     <li class="stdtext body liproject"><a class="link" href="https://sanj0.itch.io/escape-the-junk"
                             target="_blank">Escape the Junk</a>, a game made with a good friend for ldjam 42</li>
@@ -121,7 +112,7 @@
                     <li class="stdtext body liproject"><a class="link" href="https://www.github.com/sanj0/KeepITAlive"
                             target="_blank">KeepITAlive</a>, a very simple ldjam 46 game</li>
                 </ul>
-                <h2 class="projects-headline" id="dissertations">Dissertations, essays, etc.</h2>
+                <button class="button project-button" id="essay-projects">Dissertations and essays</button>
                 <ul class="project-list">
                     <li class="stdtext body liproject"><a class="link"
                             href="https://github.com/sanj0/sanj0.github.io/blob/main/papers/Nur%20eine%20Ausrede.pdf"
@@ -143,7 +134,6 @@
 
         <div id="divwhere" class="main-div" style="display:none">
             <h1 id="title">sanj0</h1>
-            <img class="portrait" src="img/sanj0.jpeg" alt="saj0">
             <button onclick="on_nav_btn_click(this);" id="btnstart" class="button stdtext">&lt; back</button><br>
             <div class="bodydiv">
                 <ul class="ulplatforms">
@@ -163,7 +153,6 @@
 
         <div id="divwhy" class="main-div" style="display:none">
             <h1 id="title">sanj0</h1>
-            <img class="portrait" src="img/sanj0.jpeg" alt="saj0">
             <button onclick="on_nav_btn_click(this);" id="btnstart" class="button stdtext">&lt; back</button><br>
             <p class="stdtext body" style="font-size: 3em">&macr;\_(&#12484;)_/&macr;</p>
             <span class="stdtext footer"></span>

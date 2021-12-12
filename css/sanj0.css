@@ -11,8 +11,7 @@
 }
 
 html {
-    background: rgb(237,129,158);
-    background: linear-gradient(135deg, rgba(237,129,158,1) 0%, rgba(248,223,166,1) 100%);
+    background: #c19770;
     height: 200vh;
     scroll-behavior: smooth;
 }
@@ -40,11 +39,6 @@ html {
     font-family: 'Righteous', cursive;
     font-size: 3em;
     color: white;
-    background: rgb(237,129,158);
-    background: linear-gradient(90deg, rgba(237,129,158,1) 0%, rgba(248,223,166,1) 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .portrait {
@@ -67,7 +61,7 @@ html {
     width: 10em;
     margin-top: 3em;
     text-decoration: none;
-    font-size: 1em;;
+    font-size: 1em;
     color: var(--pink);
     background: transparent;
     border: none;
@@ -115,9 +109,28 @@ html {
     color: white;
     font-family: 'Righteous', serif;
     margin-top: 0em;
-    margin-bottom: 1.5em;
+    clear: both;
 }
 
+.project-button {
+    width: 85%;
+    margin-top: 1.5em;
+    clear: both;
+}
+
+.project-button:after {
+    content: ' (show)';
+    color: inherit;
+}
+
+.active-project-button:after {
+    content : " (hide)";
+}
+
+.active-project-button {
+    background: rgba(242,80,101,.5);
+    color: white;
+}
 
 .olprojects {
     text-align: left;
